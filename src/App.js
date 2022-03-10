@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Component1 from "./components/Component1";
+import Component2 from "./components/Component2";
+import Component3 from "./components/Component3";
+import Component4 from "./components/Component4";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div
+        style={{
+          "text-align": "left",
+          backgroundColor: "lightgrey",
+        }}
+      >
+        <h1>Say hello to ReactJS</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          You will learn to use <br />
+          the most popular frontend library <br />
+          and become a super Ninja developer.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <button>Awesome</button>
+      </div>
+      <div style={{ display: "inline-flex", marginTop: "30%" }}>
+        <Component1 />
+        <Component2 />
+        <Component3 />
+        <Component4 />
+      </div>
     </div>
   );
 }
