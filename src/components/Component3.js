@@ -1,7 +1,9 @@
+import icon3 from "../icon3.png";
+
 const Component3 = () => {
   return (
-    <div>
-      <img src="../icon3.png" alt="icon3" />
+    <div style={{ textAlign: "left" }}>
+      <img src={icon3} alt="icon3" />
       <h3>Single-Way</h3>
       <p>
         A set of immutable <br />

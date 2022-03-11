@@ -1,7 +1,9 @@
+import icon4 from "../icon4.png";
+
 const Component4 = () => {
   return (
-    <div>
-      <img src="../icon4.png" alt="icon4" />
+    <div style={{ textAlign: "left" }}>
+      <img src={icon4} alt="icon4" />
       <h3>JSX</h3>
       <p>
         Statically typed, <br />
